@@ -2,7 +2,9 @@
 
 ## history
 
-* v1.0.1 MqttMessageSyslogSending, MqttMessageSyslogHost, MqttMessageSyslogPort 설정 추가, MQTT 인증 메시지 SYSLOG 발송 기능 추가
+### v1.0.1 
+  * MqttMessageSyslogSending, MqttMessageSyslogHost, MqttMessageSyslogPort 설정 추가
+  * MQTT 인증 메시지 SYSLOG 발송 기능 추가
 
 ## Config.yml
 
