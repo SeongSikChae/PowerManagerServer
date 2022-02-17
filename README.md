@@ -1,5 +1,9 @@
 # PowerManagerServer
 
+## history
+
+* v1.0.1 MqttMessageSyslogSending, MqttMessageSyslogHost, MqttMessageSyslogPort 설정 추가, MQTT 인증 메시지 SYSLOG 발송 기능 추가
+
 ## Config.yml
 
 * HttpPort: Http 접속 포트 (기본값 80)
@@ -13,6 +17,9 @@
 * TelegramToken: Telegram Message 용 봇 Token값
 * KeepAlliveInterval: MQTT 통신 유지 Interval (기본값 30000 - millisecond 단위)
 * ApiServerUrl: API 인증용 서버 URL (ex) https://10.0.0.5:18443)
+* MqttMessageSyslogSending: MQTT 인증 메시지 SYSLOG 발송 여부
+* MqttMessageSyslogHost: SYSLOG 전송 IP
+* MqttMessageSyslogPort: SYSLOG 전송 PORT
 
 ## AdminThumbprint 값 입력법
 
