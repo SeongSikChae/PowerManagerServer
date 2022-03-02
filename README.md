@@ -2,6 +2,9 @@
 
 ## history
 
+### v1.0.3
+ * 스케줄 및 타이머의 남은 시간을 클라이언트 브라우저에서 계산하지 않고 서버 측에서 계산해서 보내주는 형태로 변경
+
 ### v1.0.2
   * 스케줄 등록 시 Cron Expression 에서 요일 정보가 ? 가 아닌 다른 것을 사용하면 Crash 나는 문제 Fix
   * HTTP2Switch(HTTP/2 지원 여부), IncludeCipherSuites(TLS 시 키 교환 알고리즘 제한) 설정 추가
